@@ -7,6 +7,9 @@ li, ul {
 ol { list-style: decimal; }
 
 
+
+
+
 .profile-card {
     margin: 7% auto 0;
     width: 36%;
@@ -34,6 +37,42 @@ header img {
 
   }
 
+
+
+.profile-card .fa {
+    display: inline;
+}
+
+.speaker-card {
+    margin: 7% auto 0;
+    width: 80%;
+    text-align: center;
+}
+
+.speaker-card, header {
+    overflow: hidden;
+}
+
+header a {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+header img {
+    width: 250px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px dashed #fff;
+
+  }
+
+.speaker-card .fa {
+    display: inline;
+}
 
 
 * { box-sizing: border-box;padding:10px; font-family: Avenir; }
@@ -70,7 +109,7 @@ div#profile-container figcaption {
 }
 
 
-
+/* 
 table{
     border-collapse: collapse;
     border-spacing: 0;
@@ -84,3 +123,15 @@ th{
 td{
     border:1px solid #000000;
 }
+*/
+
+table { border-collapse: collapse; }
+tr { border: none; }
+td {
+  border-right: solid 1px white; 
+  border-left: solid 1px white;
+}
+
+
+.h5 .fa { display:inline; }
+.h6 .fa { display:inline; }
