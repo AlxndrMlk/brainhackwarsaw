@@ -12,6 +12,7 @@ timezone: null
 lsi: false
 markdown: kramdown
 highlighter: rouge
+baseurl
 
 
 ### content configuration ###
@@ -20,7 +21,7 @@ keywords: brainhack, hackaton, neuroscience, warsaw, cognitive science, fMRI, mo
 description: Bring your ideas on open, reproducible neuroscience related projects to AoN Brainhack Warsaw 2017! The call for proposals for is now open! Brainhack Warsaw is an official satellite event for Aspects of Neuroscience conference.
 #source_link:
 #favicon: favicon.png?
-url: https://brainhackwarsaw.github.io
+url: https://danieltomasz.github.io/brainhackwarsaw/
 #touch_icon:
 google_analytics_key: UA-104097157-1
 twitter_description: The call for proposals for the AoN Brainhack Warsaw 2017 is now open!
